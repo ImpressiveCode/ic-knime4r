@@ -1,0 +1,37 @@
+#############################################
+#
+# Content of .Rout file: 
+#
+#############################################
+ 
+
+R version 2.15.1 (2012-06-22) -- "Roasted Marshmallows"
+Copyright (C) 2012 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: i386-pc-mingw32/i386 (32-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> setwd("C:/Users/marek/AppData/Local/Temp");
+> R <- read.csv("C:/Users/marek/AppData/Local/Temp/R-inDataTempFile-745562400578245516.csv", header = TRUE, row.names = 1);
+> library(rpart);
+Warning message:
+package 'rpart' was built under R version 2.15.2 
+> R<-rpart(has.bugs~., R);
+> save(R, file="C:/Users/marek/AppData/Local/Temp/~knime2342432762452656193.R", ascii=TRUE);
+> 
+> proc.time()
+   user  system elapsed 
+   0.54    0.03    0.56 
