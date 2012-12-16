@@ -1,4 +1,4 @@
-"class","Ce","LCOMCK","LCOMHS","LCOMPFI","LCOMTC","NOF","WMC","line_coverage","instructions_coverage","branche_coverage","complexity_coverage","method_coverage","mutants_score"
+"class","Ce","LCOMCK","LCOMHS","LCOMPFI","LCOMTC","NOF","WMC","line.coverage","instructions.coverage","branche.coverage","complexity.coverage","method.coverage","mutants.score"
 "org:apache:commons:math:ConvergingAlgorithmImpl",4,35,90,96,162,7,11,1.0,1.0,1.0,1.0,1.0,1.0
 "org:apache:commons:math:analysis:integration:LegendreGaussIntegrator",8,0,25,33,0,2,13,0.94,0.9325153374233128,0.8,0.7142857142857143,0.8,0.51
 "org:apache:commons:math:analysis:integration:RombergIntegrator",8,0,0,0,0,0,10,0.8888888888888888,0.9005524861878453,0.8333333333333334,0.6363636363636364,0.6,0.45
